@@ -11,4 +11,5 @@ the app is built with MVVM architecure
 
 # Screenshot:
 
-![](images/light.jpg)
+![](MVVM/images/light.jpg)
+![](MVVM/images/dark.jpg)
