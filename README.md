@@ -9,5 +9,5 @@ the app is built with MVVM architecure
 - LiveData
 - View binding
 
-#ScreenShot:
+# Screenshot:
 
