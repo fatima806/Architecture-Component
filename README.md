@@ -10,4 +10,4 @@ the app is built with MVVM architecure
 - View binding
 
 # Screenshot:
-
+![](images/dark.jpg)
