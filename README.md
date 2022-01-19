@@ -8,3 +8,8 @@ the app is built with MVVM architecure
 - Room Database
 - LiveData
 - View binding
+
+# Screenshot:
+
+![](MVVM/images/light.jpg)
+![](MVVM/images/dark.jpg)
