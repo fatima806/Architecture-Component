@@ -16,6 +16,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+import sd.nctr.mvvm.BuildConfig;
 import sd.nctr.mvvm.model.Note;
 import sd.nctr.mvvm.repo.database.NoteDatabase;
 import sd.nctr.mvvm.repo.database.dao.NoteDao;
@@ -26,8 +27,8 @@ import sd.nctr.mvvm.repo.remote.NoteAPI;
  * Created by Fatima .
  */
 public class NoteRepository {
-    public static final String BASE_URL = "https://tq-notes-api-jkrgrdggbq-el.a.run.app/";
-    public static final String API_KEY = "502ce39b-2565-4b32-8257-a2cc20e44468";
+    public static final String BASE_URL = BuildConfig.BASE_URL;
+    public static final String API_KEY = BuildConfig.API_KEY;
     Retrofit retrofit;
     NoteAPI service;
     private NoteDao noteDao;
